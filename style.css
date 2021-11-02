@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+}
+
+html{
+    height: 100%;
+    background: url("https://purepng.com/public/uploads/large/purepng.com-water-splashwater-dropswatereffectsdynamicwater-splash-2215193286964hl1i.png");
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: purple;
+    position: fixed;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    padding-top: 60px;
+    padding-left: 8px;
+    text-align: center;
+    font-size: smaller;
+}
+
+.wrapper2{
+    box-sizing: border-box;
+    padding-top: 60px;
+    padding-left: 8px;
+    text-align: center;
+    font-size: smaller;
+}
+
+.menuIcon{
+    height: 100%;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+.bar{
+    height: 5px;
+    width: 60%;
+    background-color: white;
+}
+
+.menu{
+    position: fixed;
+    top: 60px;
+    right: -150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: rgba(129,135,255,0.89);
+    min-height: 150px;
+    transition: 0.125s;
+}
+
+h1,h2,h3{
+    font-size: x-large;
+    margin-bottom: 20px;
+    color: black;
+}
+
+img{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    margin: 5px;
+    width: 200px;
+
+}
+img.resize {
+    width:200px;
+    height:40px;
+}
